@@ -614,7 +614,6 @@ public class OAuthAppDAO {
 
         addOrUpdateOIDCSpProperty(preprocessedClientId, spTenantId, spOIDCProperties, TOKEN_BINDING_TYPE,
                 oauthAppDO.getTokenBindingType(), prepStatementForPropertyAdd, preparedStatementForPropertyUpdate);
-
         addOrUpdateOIDCSpProperty(preprocessedClientId, spTenantId, spOIDCProperties,
                 TOKEN_REVOCATION_WITH_IDP_SESSION_TERMINATION,
                 String.valueOf(oauthAppDO.isTokenRevocationWithIDPSessionTerminationEnabled()),

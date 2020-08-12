@@ -466,6 +466,7 @@ public class OAuthAdminServiceImpl {
             oauthappdo.setFrontchannelLogoutUrl(consumerAppDTO.getFrontchannelLogoutUrl());
             oauthappdo.setRenewRefreshTokenEnabled(consumerAppDTO.getRenewRefreshTokenEnabled());
             oauthappdo.setTokenBindingType(consumerAppDTO.getTokenBindingType());
+            oauthappdo.setTokenBindingValidationEnabled(consumerAppDTO.isTokenBindingValidationEnabled());
             oauthappdo.setTokenRevocationWithIDPSessionTerminationEnabled(consumerAppDTO
                     .isTokenRevocationWithIDPSessionTerminationEnabled());
         }
